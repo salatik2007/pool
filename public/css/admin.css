@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, button, h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+
+table {
+	width: 100%; 
+	margin-top: 20px;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+h1 {
+	color: #576369;
+	font-size: 20px;
+}
+
+p{
+	margin: 15px 0;
+}
+
+button {
+	background: #34C0E2;
+	color: #fff;
+	border: 1px solid #34C0E2;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none;
+}
+
+textarea {
+	height: 200px;
+	resize: none;
+}
+
+input[type=text], input[type=password], textarea {
+	padding: 7px;
+	border: 1px solid #EEEFF2;
+	border-radius: 5px;
+	color: #ADB6BA;
+	width: 300px;
+	outline: none;
+}
+
+.wrapper, .content .menu {
+	min-height: 100%;
+}
+
+.wrapper {
+ display: flex;
+}
+
+.content {
+	flex: 1;
+	background: #fff;
+}
+
+.block {
+	margin: 25px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #EEEFF2;
+}
+
+.menu {
+	width: 200px;
+	background: #e0ccb8;
+}
+
+.menu a {
+	display: block;
+	color: #000;
+	padding: 10px 35px;
+
+}
+
+.reviews {
+	background: #e0ccb8;
+	color: #000;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+
+.reviews span {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 10px;
+
+}
+
+.anketamen table{
+	width: 50%;
+	border: 1px solid grey;
+}
+
+.anketamen td{
+	text-align: left;
+	border: 1px solid grey;
+}
+
+.anketamen tr{
+	border: 1px solid grey;
+}
